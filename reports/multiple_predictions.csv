@@ -1,0 +1,4 @@
+Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Prediction,Prediction_Label,Diabetes_Probability
+1,85,66,29,0,26.6,0.351,31,0,Non-Diabetic,0.009523809523809525
+4,130,70,32,100,33.2,0.472,40,1,Diabetic,0.5169491525423728
+8,170,88,40,180,41.5,0.89,52,1,Diabetic,0.9010989010989011

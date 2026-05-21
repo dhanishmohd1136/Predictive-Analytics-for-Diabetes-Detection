@@ -1,0 +1,5 @@
+Model,CV F1 Mean,CV F1 Std
+Decision Tree,0.5346,0.0359
+KNN,0.6099,0.0441
+SVM,0.6285,0.0151
+LogisticRegression,0.6497,0.031

@@ -1,0 +1,10 @@
+HYPERPARAMETER TUNING SUMMARY
+============================================================
+
+Best Tuned Model: Decision Tree
+
+              Model                                                                      Best Parameters  Best CV F1  Accuracy  Precision  Recall  F1 Score  ROC AUC
+      Decision Tree {'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}      0.5835    0.7597     0.6393  0.7222    0.6783   0.7622
+                KNN                    {'metric': 'euclidean', 'n_neighbors': 11, 'weights': 'distance'}      0.6265    0.7338     0.6327  0.5741    0.6019   0.7930
+Logistic Regression                                   {'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}      0.6584    0.7013     0.5833  0.5185    0.5490   0.8098
+                SVM                                          {'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}      0.6603    0.6948     0.5778  0.4815    0.5253   0.8169
